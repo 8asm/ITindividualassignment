@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>AI as used in Business: a review of Ethical Issues</title>
+
+    <meta name="keywords" content="artificial intelligence, commodities, trading, business, ethics, bias, privacy, manipulation, deception" />
+    <meta name="description" content="Website created for the sole purpose of education as part of the MSc in Commodity Trading of the University of Geneva.">
+    <meta name="author" content="Bassem Ben Mehdi">
+
+    <!-- META VIEW PORT -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
+
+    <!-- FAVICON -->
+    <link rel="icon" href="images/favicons/favicon.ico">
+
+    <!-- WEB FONT-FAMILY -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&amp;display=swap" rel="stylesheet">
+
+    <!-- VENDOR FONT ICONS CSS -->
+    <link rel="stylesheet" href="fonticons/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="fonticons/et-line/et-line-font.css">
+    <link rel="stylesheet" href="fonticons/material-webfont/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="fonticons/pixeden/pe-icon-7-stroke.css">
+    <link rel="stylesheet" href="fonticons/simplelineicons/css/simple-line-icons.css">
+
+    <!-- COMMON VENDOR CSS -->
+    <link rel="stylesheet" href="vendor/animate-css/animate.min.css">
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="vendor/sweetalert/sweetalert2.min.css">
+    <link rel="stylesheet" href="vendor/jarallax/jarallax.css">
+    <link rel="stylesheet" href="vendor/owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="vendor/magnific-popup/magnific-popup.css">
+
+    <!-- PAGE SPECIFIC VENDOR CSS -->
+    <link rel="stylesheet" href="vendor/youtubebackground/css/jquery.mb.YTPlayer.min.css">
+    <link rel="stylesheet" href="vendor/vegas/vegas.min.css">
+
+    <!-- TEMPLATE COMMON CSS -->
+    <link rel="stylesheet" href="minify/ckav_min.css">
+
+    <!-- DEMO SPECIFIC TEMPLATE CSS -->
+
+    <!-- TEMPLATE USER CUSTOM CSS -->
+    <link rel="stylesheet" href="css/menu.css">
+</head>
+<body class="ckav-body tooltip-light">
+
+    <!--
+    ************************************************************
+    * PAGE LOADER
+    *************************************************************
+    -->
+    <div id="loader">
+        <div class="load-three-bounce">
+            <div class="load-child bounce1"></div>
+            <div class="load-child bounce2"></div>
+            <div class="load-child bounce3"></div>
+        </div>
+    </div>
+    <!-- ************** END : PAGE LOADER **************  -->
+
+
+    <div class="ckav-body">
+
+        <!--
+        ************************************************************
+        * HEADER
+        *************************************************************
+        -->
+        <header class="ckav-header">
+            <div class="container-fluid padding-0">
+
+                <div class="row align-items-center">
+
+                    <!-- MENU -->
+                    <div class="col flex-cr">
+                        <div class="social-section margin-r-30">
+                              <a class="navigation-a" data-popup="#credits" href="#">
+                                  <span class="icon"><i class="icon-menu"></i></span>
+                              </a>
+                          <div id="credits" class="popup-section about-section flex-cc">
+                              <div class="inner-wrapper" data-ckav-smd="align-center">
+
+                                  <!-- CLOSE BUTTON -->
+                                  <div class="popup-close button button-icon color-button-dark color-hov-button-dark solid">
+                                      <i class="pe-7s-close"></i>
+                                  </div>
+
+                                  <!-- POPUP HEADER -->
+                                  <div class="header-area typo-light">
+                                      <h2 class="heading-section medium bold-600 margin-b-0">Credits</h2>
+                                  </div>
+
+                                  <!-- POPUP CONTENT -->
+                                  <div class="content-area">
+                                      <div class="row gt60 align-items-center">
+                                          <div>
+                                              <h3 class="heading-content small bold-600">Illustrations</h3>
+
+                                              <p class="heading-content-sub bold-400 tiny margin-b-25">All images used on this website are copyright-free and belong to their respective owners.</p>
+                                              <p class="margin-b-30">1. Bias - Illustration from Jr Korpa @jrkorpa (Unsplash)<br>
+                                              2. Privacy - Illustration from Emiliano Vittoriosi @emilianovittoriosi (Unsplash)<br>
+                                              3. Manipulation & Deception - Illustration from Alex Yomare @yomare (Pixabay)<br>
+                                              4. Background animation - Refinery - 4K Aerial Cinematic Footage #Refinery #Aerial #Cinematic #epidemicsound - Published by Montesinos Drone World on the 20th of March 2022 (YouTube)</p>
+                                              <h3 class="heading-content small bold-600">References</h3>
+                                              <p class="margin-b-30">1. IBM & Morning Consult. (2022). IBM Global AI Adoption Index 2022. In <i>IBM</i>. Watson. https://www.ibm.com/watson/resources/ai-adoption<br>
+                                              2. Manyika, J. (2022, November 17). <i>What do we do about the biases in AI?</i> Harvard Business Review. https://hbr.org/2019/10/what-do-we-do-about-the-biases-in-ai<br>
+                                              3. Koerner, K. (2023, May 25). Privacy and responsible AI. <i>International Association of Privacy Professionals.</i> https://iapp.org/news/a/privacy-and-responsible-ai/<br>
+                                              4. <i>The dark side of artificial intelligence: manipulation of human behaviour.</i> (2023, March 9). Bruegel | the Brussels-based Economic Think Tank. https://www.bruegel.org/blog-post/dark-side-artificial-intelligence-manipulation-human-behaviour</p>
+
+                                              <p class="heading-content-sub bold-400 tiny margin-b-25">Bassem Ben Mehdi - MSc in Commodity Trading - University of Geneva - 2023-2024</p>
+
+                                          </div>
+                                      </div>
+                                  </div>
+
+                              </div>
+                          </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </header>
+        <!-- ************** END : HEADER **************  -->
+
+        <!--
+        ************************************************************
+        * SECTION INTRO
+        *************************************************************
+        -->
+        <div class="intro-section flex-bc">
+            <div class="container zindex-1 typo-light padding-b-large" data-ckav-smd="padding-b-mini">
+                <div class="intro-text width-100 align-center" data-ckav-smd="width-100 align-center">
+                    <h2 class="heading bold-600 margin-b-25" data-ckav-smd="large"><i>“ Around 77% of all companies use or are exploring the use of Artificial Intelligence (AI) ”</i></h2>
+                    <p class="heading-sub mini bold-400 width-60 margin-auto margin-b-40" data-ckav-smd="mini width-100 margin-b-40">— IBM Global AI Adoption Index 2022</p>
+                    <p class="margin-b-30">Artificial Intelligence is a powerful technology that can enhance human capabilities, improve efficiency, and solve complex problems.
+                    However, AI also poses significant ethical challenges that need to be addressed. In this page, you will find out about three of these challenges: bias, privacy, and manipulation and deception.</p>
+                    <p class="margin-b-30">Bias refers to the unfair or discriminatory outcomes that may result from AI systems that are not designed or tested properly.<br>
+                    Privacy concerns the protection of personal data and information that may be collected or used by AI systems without consent or transparency.<br>
+                    Manipulation and deception involves the use of AI to influence or deceive people in ways that may harm their interests or autonomy.</p>
+                    <p class="margin-b-30">These ethical issues are not only relevant for the developers and users of AI, but also for the society and the environment at large.<br>
+                    Please proceed with pressing the following buttons to find out more about these three concerns. Sources may be accessed by opening the top right menu.</p>
+                </div>
+
+            </div>
+
+            <!--=================================
+            = BACKGROUND HOLDER
+            ==================================-->
+            <div class="bg-holder zindex-0">
+
+                <!-- OVERLAY -->
+                <b data-bgholder="overlay" class="full-wh zindex-3" data-lgradient="y" data-linear-gradient="rgba(0,0,0, 0.1)|rgba(0,0,0, 1)"></b>
+
+                <!-- YOUTUBE VIDEO -->
+                <div class="you-video-wrp full-wh bg-cover bg-cc zindex-2">
+                    <video autoplay muted loop class="full-wh bg-cover bg-cc zindex-2">
+                        <source src="images/4k.mp4" type="video/mp4">
+                        Votre navigateur ne prend pas en charge la balise vidéo.
+                    </video>
+                </div>
+
+            </div>
+            <!-- ======= END : BACKGROUND HOLDER =======  -->
+
+        </div>
+        <!-- ************** END : INTRO SECTION **************  -->
+
+        <!--
+        ************************************************************
+        * NAVIGATION
+        *************************************************************
+        -->
+        <div class="navigation-section" data-linear-gradient="rgba(0,0,0, 0)|rgba(0,0,0, 0.8)">
+            <div class="container">
+                <ul class="navigation-ul row gt0 align-items-center">
+                    <li class="navigation-li col">
+                        <a class="navigation-a" data-popup="#bias" href="#">
+                            <span class="icon"><i class="icon-profile-male"></i></span>
+                            <span class="text">Bias</span>
+                            <span class="line"></span>
+                        </a>
+                    </li>
+                    <li class="navigation-li col">
+                        <a class="navigation-a" data-popup="#privacy" href="#">
+                            <span class="icon"><i class="icon-lock"></i></span>
+                            <span class="text">Privacy</span>
+                            <span class="line"></span>
+                        </a>
+                    </li>
+                    <li class="navigation-li col">
+                        <a class="navigation-a" data-popup="#manipulation" href="#">
+                            <span class="icon"><i class="icon-streetsign"></i></span>
+                            <span class="text">Manipulation</span>
+                            <span class="line"></span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- ************** END : NAVIGATION **************  -->
+
+        <!--
+        ************************************************************
+        * SECTION BIAS
+        *************************************************************
+        -->
+        <div id="bias" class="popup-section about-section flex-cc">
+            <div class="inner-wrapper" data-ckav-smd="align-center">
+
+                <!-- CLOSE BUTTON -->
+                <div class="popup-close button button-icon color-button-dark color-hov-button-dark solid">
+                    <i class="pe-7s-close"></i>
+                </div>
+
+                <!-- POPUP HEADER -->
+                <div class="header-area typo-light">
+                    <h2 class="heading-section medium bold-600 margin-b-0">Bias</h2>
+                </div>
+
+                <!-- POPUP CONTENT -->
+                <div class="content-area">
+                    <div class="row gt60 align-items-center">
+                        <div class="col-lg-6" data-ckav-smd="margin-b-40">
+                            <img class="radius-10" src="images/bias.jpg" alt="Bias - Illustration from Jr Korpa @jrkorpa (Unsplash)">
+                        </div>
+                        <div class="col-lg-6">
+                            <h3 class="heading-content small bold-600">Unmasking AI: Unveiling the Bias in Business Algorithms</h3>
+
+                            <p class="heading-content-sub bold-400 tiny margin-b-30">Back in 1988, a British medical school used a computer program to select applicants for interviews. Upon investigation by the UK Commission for Racial Equality, the program was found to be biased against women and those with non-European names. The reason for that was simple: the algorithm was programmed to mimic already implemented human selection criteria.</p>
+                            <p class="margin-b-30">Bias poses a significant challenge upon AI systems, regarding how it can have negative consequences for human decisions and trust. It can originate from different factors, such as the data used to train the AI models, the methods used to sample the data, or the choices made by the algorithm designers.<br>
+                            Actions that business leaders can take to reduce bias and ensure fairness in AI include keeping up with the latest research, setting up ethical processes, having evidence-based discussions, exploring how humans and machines can work together, investing more resources in bias research and data, and increasing the diversity of the AI community.<br>
+                            Bias can reinforce existing human prejudices or introduce new ones, resulting in unfair or harmful treatment for certain groups or individuals based on their characteristics or circumstances.</p>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- ************** END : SECTION BIAS **************  -->
+
+        <!--
+        ************************************************************
+        * SECTION PRIVACY
+        *************************************************************
+        -->
+        <div id="privacy" class="popup-section services-section flex-cc">
+            <div class="inner-wrapper" data-ckav-smd="align-center">
+
+                <!-- CLOSE BUTTON -->
+                <div class="popup-close button button-icon color-button-dark solid color-hov-button-dark">
+                    <i class="pe-7s-close"></i>
+                </div>
+
+                <!-- POPUP HEADER -->
+                <div class="header-area typo-light">
+                    <h2 class="heading-section medium bold-600 margin-b-0">Privacy</h2>
+                </div>
+
+                <!-- POPUP CONTENT -->
+                <div class="content-area flex-cc">
+
+                  <div class="col-lg-6" data-ckav-smd="margin-b-40">
+                      <img class="radius-10" src="images/privacy.jpg" alt="Privacy - Illustration from Emiliano Vittoriosi @emilianovittoriosi (Unsplash)">
+                  </div>
+
+                  <div class="col-lg-6">
+                      <h3 class="heading-content small bold-600">Guarding the Gates: Navigating Privacy Concerns in AI Implementation</h3>
+
+                      <p class="heading-content-sub bold-400 tiny margin-b-30">Key privacy issues arise from AI, such as data quality, data minimization, purpose limitation, consent, transparency, accountability, and fairness.</p>
+                      <p class="margin-b-30">The ethical issue caused by AI regarding privacy is that AI systems may process personal data in ways that are not transparent, fair, or respectful of the rights and preferences of individuals. AI systems may also pose risks to data security, data accuracy, and data quality, which can affect the trustworthiness and reliability of the outcomes. Moreover, AI systems may generate new or sensitive data that may not be covered by existing privacy laws or regulations, or that may require additional safeguards or oversight. Therefore, privacy professionals need to ensure that AI systems are designed and deployed in a responsible and ethical way that respects the privacy and dignity of individuals and society.<br>
+                      Nevertheless, privacy laws and regulations can indeed apply to AI systems. The EU General Data Protection Regulation (GDPR), for instance, requires data protection by design and by default, data protection impact assessments, data subject rights, and data protection officers.</p>
+
+                  </div>
+
+                </div>
+
+            </div>
+        </div>
+        <!-- ************** END : SECTION PRIVACY **************  -->
+
+        <!--
+        ************************************************************
+        * SECTION MANIPULATION
+        *************************************************************
+        -->
+        <div id="manipulation" class="popup-section gallery-section flex-cc">
+            <div class="inner-wrapper" data-ckav-smd="align-center">
+
+                 <!-- CLOSE BUTTON -->
+                 <div class="popup-close button button-icon color-button-dark solid color-hov-button-dark">
+                    <i class="pe-7s-close"></i>
+                </div>
+
+                <!-- POPUP HEADER -->
+                <div class="header-area typo-light">
+                    <h2 class="heading-section medium bold-600 margin-b-0">Manipulation & Deception</h2>
+                </div>
+
+                <!-- POPUP CONTENT -->
+                <div class="content-area flex-cc">
+
+                  <div class="col-lg-6" data-ckav-smd="margin-b-40">
+                      <img class="radius-10" src="images/manipulation.jpg" alt="Manipulation & Deception - Illustration from Alex Yomare @yomare (Pixabay)">
+                  </div>
+
+                  <div class="col-lg-6">
+                      <h3 class="heading-content small bold-600">Resisting the Dark Side: Countering Manipulation and Deception in AI Systems</h3>
+
+                      <p class="heading-content-sub bold-400 tiny margin-b-30">Firms operating open-access AI solutions can collect and analyze huge amounts of data from their users, such as their preferences, personality traits, emotions and vulnerabilities.</p>
+                      <p class="margin-b-30">This information may be used to design and implement strategies that influence the users' decisions and actions in favor of the firms' interests. An example is the case of Cambridge Analytica, which used Facebook data to manipulate voters, and Netflix, which used AI to create personalized trailers for its shows.<br>
+                      Some ways to prevent or mitigate the risks of AI manipulation involve an increase of the transparency and accountability of AI systems and algorithms, regulations over the use and access of data, education and information toward the users about the potential dangers of their online behavior and how to empower them to exercise their rights and choices.</p>
+
+                  </div>
+
+                </div>
+
+            </div>
+        </div>
+        <!-- ************** END : SECTION MANIPULATION **************  -->
+
+    </div>
+
+
+<!-- COMMON VENDOR SCRIPTS -->
+<script src="vendor/jquery/jquery-3.3.1.min.js"></script>
+<script src="vendor/jquery/jquery-migrate-3.0.0.min.js"></script>
+<script src="vendor/popper/umd/popper.min.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<script src="vendor/jquery-validation/jquery.validate.min.js"></script>
+<script src="vendor/sweetalert/sweetalert2.min.js"></script>
+<script src="vendor/jarallax/jarallax.min.js"></script>
+<script src="vendor/owlcarousel/owl.carousel.min.js"></script>
+<script src="vendor/swiper/js/swiper.min.js"></script>
+<script src="vendor/jQuery-viewport-checker/jquery.viewportchecker.min.js"></script>
+<script src="vendor/enquire/enquire.min.js"></script>
+<script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+<script src="vendor/isotope/imagesloaded.pkgd.min.js"></script>
+<script src="vendor/isotope/isotope.pkgd.min.js"></script>
+<script src="vendor/isotope/packery-mode.pkgd.min.js"></script>
+
+<!-- PAGE SPECIFIC VENDOR SCRIPTS -->
+<script src="vendor/vegas/vegas.min.js"></script>
+<script src="vendor/youtubebackground/jquery.mb.YTPlayer.min.js"></script>
+
+<!-- TEMPLATE COMMON SCRIPTS -->
+<script src="minify/ckav_min.js"></script>
+
+</body>
+
+</html>
